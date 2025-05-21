@@ -120,3 +120,101 @@ Here are **all the exact Artificial Intelligence (AI) exam questions (310253)** 
 
 
 
+
+
+Here's a **predicted question paper** for **Artificial Intelligence (310253)** – **SPPU TE Computer (2019 Pattern)** for the **2025 exam**, based on a thorough analysis of previous years' trends (2022–2024), topic frequency, and syllabus weightage.
+
+---
+
+# 📘 **Predicted Question Paper – AI (2025)**
+
+**Subject Code:** 310253
+**Time:** 2½ Hours    **Max. Marks:** 70
+
+---
+
+### **Instructions:**
+
+1. Solve Q.1 or Q.2, Q.3 or Q.4, Q.5 or Q.6, Q.7 or Q.8.
+2. Neat diagrams must be drawn wherever necessary.
+3. Assume suitable data if needed.
+
+---
+
+### 🧮 **Q1 OR Q2 – (Adversarial Search + CSP)**
+
+**Q1)**
+a) Explain Minimax algorithm with Alpha-Beta Pruning using a suitable example. \[9]
+b) Define Constraint Satisfaction Problem (CSP). Explain types of consistencies used in solving CSPs. \[9]
+
+**OR**
+
+**Q2)**
+a) Solve the N-Queen problem using Backtracking. Explain with a diagram. \[9]
+b) Solve the following Cryptarithmetic Problem using constraint propagation:
+      `SEND + MORE = MONEY` \[9]
+
+---
+
+### 📐 **Q3 OR Q4 – (Logic, FOL, Agents)**
+
+**Q3)**
+a) What is an Agent? Explain with 5 examples and describe a Knowledge-Based Agent using the Wumpus World scenario. \[9]
+b) Convert the following into Predicate Logic:
+    i) All birds fly
+    ii) Some boys play cricket
+    iii) A cousin is the child of a parent’s sibling
+    iv) Every square is a rectangle \[9]
+
+**OR**
+
+**Q4)**
+a) Explain the inference rules in Propositional Logic with examples. \[9]
+b) What is Knowledge Representation using propositional logic? Compare it with Predicate Logic. \[9]
+
+---
+
+### 🔁 **Q5 OR Q6 – (Chaining, Unification, Ontology)**
+
+**Q5)**
+a) Explain Forward and Backward Chaining with their advantages and disadvantages. \[9]
+b)
+  i) Perform Unification for `p(x, f(x))` and `p(f(y), f(z))`. \[5]
+  ii) What is reasoning with default information? Give an example. \[4]
+
+**OR**
+
+**Q6)**
+a) Explain Backward Chaining using an example. \[8]
+b) What is Ontological Engineering? Describe object and model ontologies with examples. \[9]
+
+---
+
+### 📋 **Q7 OR Q8 – (Planning & AI Architecture)**
+
+**Q7)**
+a) Explain Goal Stack Planning (STRIPS algorithm) with an example. \[5]
+b) How is planning different from problem solving? Give a suitable example. \[5]
+c) Explain the components of AI and draw a neat AI architecture. \[8]
+
+**OR**
+
+**Q8)**
+a) Explain planning in a non-deterministic domain with an AND-OR graph. \[5]
+b)
+  i) State the importance of planning in AI. \[4]
+  ii) Write the algorithm for Classical Planning. \[4]
+c) What is AI? Explain its scope in various fields and future opportunities. \[8]
+
+---
+
+# ✅ **How to Use This Paper:**
+
+* Try solving **any 4 complete questions** (one from each pair).
+* Practice **diagrams for N-Queen, Minimax Tree, Wumpus World, AI Architecture, STRIPS**.
+* Prepare **at least one chaining + unification answer** thoroughly.
+
+---
+
+
+
