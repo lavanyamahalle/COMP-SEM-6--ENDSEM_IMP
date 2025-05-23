@@ -169,6 +169,288 @@ Here are the **exact questions from Q1 to Q8 (grouped by pairs: Q1 & Q2, Q3 & Q4
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here is a **predicted question paper** for your **Cloud Computing exam (SPPU Pattern, 2025)** based on detailed analysis of 2022–2024 trends.
+
+---
+
+# 📄 **Predicted Cloud Computing Question Paper (2025)**
+
+**(Total Marks: 70 | Attempt any 5 out of 8 Questions)**
+
+---
+
+## ✅ **Q1: (Virtualization & Architecture)**
+
+**a)** Explain different types of virtualization with examples.
+**b)** Describe the architecture of virtualization with a neat diagram.
+**OR**
+
+## ✅ **Q2: (Grid vs Cloud + Hypervisors)**
+
+**a)** Compare Grid Computing with Cloud Computing.
+**b)** Differentiate between Type 1 and Type 2 hypervisor with examples.
+
+---
+
+## ✅ **Q3: (AWS, EC2, S3)**
+
+**a)** What is AWS? List and explain its core services.
+**b)** Explain the working of Amazon S3 with a suitable diagram.
+**c)** Describe the steps to launch an EC2 instance in AWS.
+
+**OR**
+
+## ✅ **Q4: (App Engine + Dynamo + SQL Azure)**
+
+**a)** Explain Google App Engine and its features.
+**b)** Describe the architecture of Amazon DynamoDB.
+**c)** Explain SQL Azure with its advantages.
+
+---
+
+## ✅ **Q5: (Security Services + Risk + Testing)**
+
+**a)** What are the key cloud security services? Explain their necessity.
+**b)** What are the common security risks in cloud computing and how can they be managed?
+**c)** Describe secure cloud software testing techniques.
+
+**OR**
+
+## ✅ **Q6: (Testing + CLS + Encryption)**
+
+**a)** List and explain different types of testing in cloud computing.
+**b)** Write a short note on Content Level Security.
+**c)** Compare client-side and server-side encryption.
+
+---
+
+## ✅ **Q7: (Docker + Kubernetes + IoT)**
+
+**a)** Explain the architecture of Docker with a neat diagram.
+**b)** Describe Kubernetes and its working.
+**c)** Explain the use of cloud and IoT in home automation.
+
+**OR**
+
+## ✅ **Q8: (Distributed Cloud + Mobile + Energy-Aware)**
+
+**a)** Differentiate between Distributed Cloud Computing and Edge Computing.
+**b)** Explain mobile cloud computing with suitable examples.
+**c)** What is energy-aware cloud computing? Describe any two optimization techniques.
+
+---
+
+### 🧠 Prep Tips Based on This Paper:
+
+* Focus on **Docker + Kubernetes + AWS (S3/EC2)**
+* Master **Security Services + Cloud Risks + Testing types**
+* Memorize **key diagrams**: Virtualization, Docker, Kubernetes, S3, CIA triad, Edge vs Distributed
+
+---
+
+Would you like:
+
+* This as a **PDF mock paper**?
+* Model answers or a **self-assessment version** with marks scheme?
+
+Let me know how you’d like to use it!
+
+
+
+
+
+
+
+
+
+
+**Model Answer Key – Predicted Cloud Computing Question Paper (2025)**
+
+---
+
+
+
+* **Total Marks**: 70
+* **Attempt any 4 questions out of 8**
+* **Each question has 3 sub-questions** (6 marks each)
+* **6 + 6 + 6 = 18 marks per question**
+* 4 Questions x 18 marks = **72 marks total**, scaled to **70**
+
+---
+
+### ✅ Q1 (Virtualization & Architecture)
+
+**a) Types of Virtualization (6 marks)**
+
+* Full, Para, OS-level, Storage, Network
+* Diagrams + use cases
+* **Keywords**: VM, abstraction, isolation, hypervisor
+
+**b) Architecture of Virtualization (6 marks)**
+
+* Diagram: Hardware > Hypervisor > VM Stack
+* Explain Host Machine, Guest OS, Hypervisor
+
+**c) Benefits & Limitations of Virtualization (6 marks)**
+
+* Advantages: efficiency, scalability, isolation
+* Limitations: overhead, complexity
+
+---
+
+### ✅ Q2 (Grid vs Cloud + Hypervisors)
+
+**a) Grid vs Cloud (6 marks)**
+
+* Features: architecture, scalability, resource model
+* Table format recommended
+
+**b) Type 1 vs Type 2 Hypervisor (6 marks)**
+
+* Bare-metal vs hosted hypervisors
+* Examples: VMware, VirtualBox
+* Diagram & performance comparison
+
+**c) Virtual Clustering (6 marks)**
+
+* Use of VMs in a clustered setup for load balancing, HA
+
+---
+
+### ✅ Q3 (AWS, EC2, S3)
+
+**a) AWS Core Services (6 marks)**
+
+* Compute, Storage, Database, Networking
+* IAM, EC2, S3, VPC
+
+**b) Amazon S3 Working (6 marks)**
+
+* Buckets, Objects, HTTP interface
+* Diagram: User → Bucket → Object
+
+**c) Steps to Launch EC2 (6 marks)**
+
+* AMI, instance type, storage, security group, key pair
+
+---
+
+### ✅ Q4 (App Engine, DynamoDB, SQL Azure)
+
+**a) Google App Engine (6 marks)**
+
+* PaaS, auto-scaling, language support, deployment
+
+**b) DynamoDB Architecture (6 marks)**
+
+* NoSQL, key-value, partitioning, scalability
+* Diagram: Table with partition key, sort key
+
+**c) SQL Azure (6 marks)**
+
+* Cloud RDBMS, features: backup, scaling, integration
+
+---
+
+### ✅ Q5 (Security + Risk + Testing)
+
+**a) Cloud Security Services (6 marks)**
+
+* IAM, MFA, firewalls, encryption, logging
+* Diagram optional
+
+**b) Risks in Cloud (6 marks)**
+
+* Data loss, breach, insider threats, DDoS, mitigation techniques
+
+**c) Secure Software Testing (6 marks)**
+
+* Pen testing, vulnerability scanning, SAST/DAST
+
+---
+
+### ✅ Q6 (Testing + CLS + Encryption)
+
+**a) Types of Cloud Testing (6 marks)**
+
+* Functional, Load, Stress, Regression, Security
+
+**b) Content Level Security (6 marks)**
+
+* Encrypt specific content: files, emails, documents
+
+**c) Client-side vs Server-side Encryption (6 marks)**
+
+* Table comparison: key control, encryption location, example
+
+---
+
+### ✅ Q7 (Docker + Kubernetes + IoT)
+
+**a) Docker Architecture (6 marks)**
+
+* Components: client, daemon, images, containers
+* Diagram required
+
+**b) Kubernetes Architecture (6 marks)**
+
+* Master node, scheduler, etcd, worker node, pods
+
+**c) IoT + Cloud for Home Automation (6 marks)**
+
+* Sensors → Gateway → Cloud → App
+* Real-time monitoring + control
+
+---
+
+### ✅ Q8 (Distributed vs Edge + Mobile + Energy-Aware)
+
+**a) Distributed vs Edge Cloud (6 marks)**
+
+* Features, latency, architecture
+* Diagram recommended
+
+**b) Mobile Cloud (6 marks)**
+
+* Offloading processing/storage to cloud via APIs
+
+**c) Energy-Aware Cloud Computing (6 marks)**
+
+* VM migration, shutdown idle servers, renewable energy
+
+---
+
+**Marking Scheme:**
+
+* 6 marks per sub-question
+* Total: 4 questions x 18 = 72 marks → scaled to **70**
+
+**Tips:**
+
+* Include 1 diagram per question (when possible)
+* Use keywords in bold
+* Keep intro-body-conclusion format
+
+
+
+
+
+
 ### ✅ Q1 & Q2: Virtualization, Grid vs Cloud, Hypervisors, Clustering
 
 #### 1. Virtualization
