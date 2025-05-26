@@ -1,0 +1,170 @@
+Thanks! Let's include this new **Q5 & Q6 set (likely Dec 2024)** into the full list. Here's the **updated and complete extraction** of all **Q5 and Q6** questions from **2022 to Dec 2024**, including your latest input:
+
+---
+
+### ✅ **\[Paper 1 – 2022]**
+
+**Q5)**
+a) Identify and explain steps involved in connecting to MySQL with PHP. \[9]
+b) Write short notes on: \[9]
+ i) Overview of ASP.NET
+ ii) Overview of C#
+
+**OR**
+
+**Q6)**
+a) Explain in detail WAP Architecture & WML. \[9]
+b) Explain functions in PHP with example & session management. \[9]
+
+---
+
+### ✅ **\[Paper 2 – Jan 2023]**
+
+**Q5)**
+a) Explain the following with respect to PHP: \[9]
+ i) Arrays
+ ii) Function
+ iii) Control statements in PHP
+b) How does this array work in PHP? Explain with example. \[9]
+
+**OR**
+
+**Q6)**
+a) Explain object-oriented way to connect MySQL database with PHP. \[9]
+b) Draw and explain .NET framework with CLR, CLI. \[9]
+
+---
+
+### ✅ **\[Paper 3 – June 2023]**
+
+**Q5)**
+a) What is WAP? Explain components of WAP architecture in detail. \[8]
+b) What is multidimensional arrays in PHP? Explain it with simple PHP code. \[5]
+c) Explain overview of Node JS. \[5]
+
+**OR**
+
+**Q6)**
+a) Explain how cookies and session are used for session management in PHP. \[8]
+b) What is WML? Explain WML elements. \[5]
+c) Explain in brief overview of ASP.NET. \[5]
+
+---
+
+### ✅ **\[Paper 4 – Dec 2023]**
+
+**Q5)**
+a) Explain different types of arrays in PHP with example. \[9]
+b) Write note on: \[9]
+ i) ASP.NET
+ ii) NodeJS
+
+**OR**
+
+**Q6)**
+a) Write PHP code to connect MySQL database to display records from the table. \[9]
+b) Explain the concepts of WAP, WML and .NET framework. \[9]
+
+---
+
+### ✅ **\[Paper 5 – May 2024]**
+
+**Q5)**
+a) Explain various types of Arrays in PHP. Explain each with example code. \[9]
+b) Explain the following:
+ i) WAP & WML \[4]
+ ii) C# Vs Java \[5]
+
+**OR**
+
+**Q6)**
+a) Explain PHP with MySQL using example. \[6]
+b) Write note on: \[12]
+ i) Session tracking in PHP
+ ii) .NET framework
+ iii) NodeJS
+
+---
+
+### ✅ **\[Paper 6 – Dec 2024]**
+
+**Q5)**
+a) Explain the MySQL & PHP for inserting the students data into the students table. (Assume suitable data) \[8]
+b) Write note on:
+ i) ASP.NET \[5]
+ ii) NodeJS \[5]
+
+**OR**
+
+**Q6)**
+a) Explain PHP functions and arrays in PHP.
+b) Explain the concept of .NET framework and C#
+
+---
+
+Let me know if you want this analyzed for:
+
+* **Topic frequency**
+* **Predictions for 2025**
+* **Grouped themes** like we did for Q3/Q4
+
+
+
+
+## ✅ **Recommended Block (Easy + High Chance in 2025)**
+
+### 🔹 **Choose Block 1 (Q5)**
+
+**Theme:** PHP with MySQL + short notes on ASP.NET / NodeJS
+**Why?**
+
+* Frequently appeared (2022, Dec 2023, Dec 2024)
+* Practical and predictable code (insert/connect)
+* Short notes are easy and direct
+
+---
+
+### 📌 **Predicted & Easy Questions for Q5 (2025)**
+
+| **Q5a)**                                                                            | **Q5b)**                                       | **Why it's easy & likely**                                    |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------- |
+| Write PHP code to insert student data into `students` table (assume suitable data). | Write short notes on: i) ASP.NET ii) NodeJS    | Appeared in 3 papers, straight to the point, no complex logic |
+| Explain steps to connect PHP with MySQL database with example.                      | Write notes on: i) C# ii) ASP.NET              | Frequently asked, scoring with memorized code + bullets       |
+| Write PHP code to connect and display records from a table using MySQL.             | Write notes on: i) NodeJS ii) WAP architecture | Very common; code is simple + notes are high-yield theory     |
+
+---
+
+### 🔹 **Alternative (Also Easy) — Choose Block 2 (Q6)**
+
+**Theme:** PHP Functions/Arrays + .NET or C#
+**Why?**
+
+* Mostly **theory** + simple examples
+* Appeared in **Dec 2024**, easy to revise
+
+---
+
+### 📌 **Predicted & Easy Questions for Q6 (2025)**
+
+| **Q6a)**                                                    | **Q6b)**                                          | **Why it's easy & likely**                               |
+| ----------------------------------------------------------- | ------------------------------------------------- | -------------------------------------------------------- |
+| Explain functions and types of arrays in PHP with examples. | Explain the .NET framework. Compare C# with Java. | Pure theory with repeated patterns in past papers        |
+| Explain PHP session handling and user-defined functions.    | Write short notes on: i) .NET architecture ii) C# | Common mix of session logic + platform-based short notes |
+| Explain PHP control structures (if, switch, loop).          | Explain .NET components like CLR, CLI, and JIT.   | Highly repeatable question format + pure scoring theory  |
+
+---
+
+## 🏁 **Final Recommendation**
+
+| **Pick Q5 (Block 1)** if:                   | **Pick Q6 (Block 2)** if:                          |
+| ------------------------------------------- | -------------------------------------------------- |
+| You’re confident with **PHP + MySQL code**  | You prefer **theory-heavy + structured answers**   |
+| You can write clean insert/display scripts  | You want to avoid database code or HTML output     |
+| You want short, direct note-based questions | You’re better at writing comparisons and overviews |
+
+---
+
+Let me know if you want:
+
+* Model answers or template answers for any of these
+* A visual one-page cheat sheet for Q5 or Q6 prep!

@@ -1,0 +1,35 @@
+Here’s a **topic-wise summary** of all the **Block 1 questions** (Servlet Lifecycle, doGet/doPost, DTD vs XML Schema/XML Syntax, Servlet + DB connectivity):
+
+---
+
+### 1. **Servlet Lifecycle & Architecture**
+
+* Describe servlet architecture in detail.
+* Explain Servlet architecture with diagram and servlet lifecycle.
+* Explain the servlet life cycle with example.
+* Explain HttpServlet class with example and lifecycle methods.
+
+### 2. **doGet() and doPost() Methods**
+
+* Compare doGet and doPost methods in servlet.
+* Explain doGet() & doPost() methods of servlet with differences.
+* Write note on doGet vs doPost.
+
+### 3. **DTD, XML Schema & XML Syntax**
+
+* Explain DTD in XML with schemes, elements & attributes.
+* Explain concept of DTDs with example. Differentiate DTD vs XML Schema (min 4 points).
+* What is XML DTDs? Explain with example. Differentiate XML DTDs vs XML Schema (min 4 points).
+* Explain XML using DTDs & XML using XML Schema with example.
+
+### 4. **Servlet + Database Connectivity**
+
+* Explain Servlet and MySQL database connectivity with example code to display data from employee table.
+
+### 5. **Servlet Programming with POST Method**
+
+* Write a servlet which accepts two numbers using POST method and display the maximum number.
+
+---
+
+If you want, I can also prepare **short notes or key points** on each topic!

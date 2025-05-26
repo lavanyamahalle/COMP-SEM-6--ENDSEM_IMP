@@ -1,0 +1,29 @@
+| **Concept**                        | **Paper 1 (2022)**                              | **Paper 2 (Jan 2023)**                                           | **Paper 3 (June 2023)**          | **Paper 4 (Dec 2023)**                                         | **Paper 5 (May 2024)**                                                        |
+| ---------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **JSP Lifecycle & Advantages**     | Explain JSP lifecycle; advantages over servlet  | Same concept – lifecycle + advantages of JSP over servlet        | JSP lifecycle with diagram       | JSP vs Servlet (min 4 points); lifecycle explained             | Lifecycle + JSP vs Servlet                                                    |
+| **JSP Syntax & Page Directives**   | —                                               | JSP program using page directive, scriptlet, expression, comment | —                                | Syntax, sample example, JSP vs servlet analogy                 | —                                                                             |
+| **JSP + MVC Architecture**         | JSP support for MVC (Model, View, Controller)   | —                                                                | Draw & explain MVC architecture  | JSP with MVC                                                   | JSP support for MVC paradigm                                                  |
+| **Struts Framework**               | Explain Struts with components and interceptors | Struts architecture, diagram, benefits                           | Important interceptors in Struts | Struts architecture, actions, interceptors, exception handling | Struts framework with architecture, actions, interceptors, exception handling |
+| **Web Services: SOAP, WSDL, etc.** | Short note: SOAP, WSDL                          | Benefits of web services; SOAP, REST, UDDI                       | Benefits of Web Services         | Explain WSDL and SOAP                                          | Web services; WSDL, SOAP                                                      |
+
+
+
+to attempt
+| **Year**      | **Q4 a)**                                                            | **Q4 b)**                                                                   |
+| ------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **2022**      | Struts framework with its components; explain interceptors           | JSP support for MVC (Model-View-Controller) for web application development |
+| **Jan 2023**  | JSP program using page directive, Scriptlet, Expression, and Comment | Benefits of Web Services; Explain SOAP, REST, UDDI                          |
+| **June 2023** | What is JSP? Enlist advantages over Servlet                          | WSDL and SOAP; Explain WSDL in detail                                       |
+| **Dec 2023**  | JSP with support for MVC                                             | Struts architecture, actions, interceptors, and exception handling          |
+| **May 2024**  | JSP Lifecycle; Differentiate JSP vs Servlet (min 4)                  | Web Services concept; WSDL and SOAP                                         |
+| **Dec 2024**  | JSP vs Servlet (min 4); How JSPs are translated to Servlets          | Struts framework; explain with example code block                           |
+
+
+
+🔮 Alternate Predicted Q4 for 2025 (with Web Services)
+Q4)
+a) Differentiate JSP and Servlet (min 4 points). Explain how JSPs are translated into servlets internally. [8]
+b) Define Web Services. Explain SOAP and WSDL with suitable structure and applications. [9]
+Q4)
+a) Compare JSP and Servlet (minimum 4 points). Explain how JSP supports MVC architecture with suitable diagram. [8]
+b) Explain Struts framework architecture. Illustrate with flow diagram and describe role of Action class and Interceptors. [9]

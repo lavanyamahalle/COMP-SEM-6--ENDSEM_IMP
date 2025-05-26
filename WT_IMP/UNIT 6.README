@@ -1,0 +1,57 @@
+Here you go! Below is a **predicted Q7 & Q8 for 2025**, based on the most frequent and easy-to-answer **topic groups** from 2022–2024, followed by a **printable cheat sheet** of grouped topics for revision.
+
+---
+
+## 🔮 **Predicted Question 7 & 8 for 2025**
+
+### ✅ **Q7 (Likely Group: Ruby Fundamentals + EJB)**
+
+**Q7)**
+a) Explain scalar types, control statements, and arrays in Ruby with suitable examples. \[10]
+b) What is EJB? Explain its types and uses in enterprise applications. \[7]
+
+> ✅ Why this group?
+>
+> * Seen in **4 previous papers**
+> * Purely **theory + example-based**, easy to prepare
+> * Consistently asked combo (Ruby basics + EJB core)
+
+---
+
+### ✅ **Q8 (Likely Group: Rails with AJAX + Advantages)**
+
+**Q8)**
+a) Explain the use of Rails with AJAX. Describe how Rails handles AJAX calls with example code. \[10]
+b) Write a note on the advantages of Ruby and Rails in web development. \[5]
+c) What is the role of database integration in a Rails application? \[3]
+
+> ✅ Why this group?
+>
+> * Seen in **5 papers**, mostly in Q8
+> * Practical and short — high-scoring and low-effort
+
+---
+
+## 📝 **Printable Topic Group Cheat Sheet**
+
+| **Group** | **Topics**                                           | **How to Prepare**                                                                |
+| --------- | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1         | Ruby Scalar Types + Arrays + Control Statements      | Basic examples, syntax, output – prep with code snippets                          |
+| 2         | EJB Architecture, Types, Uses                        | Write structured notes: Session, Entity, Message Beans + lifecycle                |
+| 3         | Rails with AJAX + Advantages of Ruby/Rails           | Flowchart, explain AJAX handling + short bullet points on Rails benefits          |
+| 4         | Ruby Classes/Objects + Rails Layouts/Forms/Databases | Write one example for class/object + HTML+ERB structure for forms/database layout |
+| 5         | Ruby Pattern Matching + Form Requests in Rails       | Less frequent, but seen in Jan & Dec 2023 – good optional prep                    |
+
+---
+
+### 📌 Tip for Choosing in Exam:
+
+* ✅ **Q7**: Choose if you're better at **syntax-based + conceptual theory (EJB)**
+* ✅ **Q8**: Choose if you prefer **practical Rails questions + short answer writing**
+
+---
+
+Let me know if you’d like:
+
+* A one-page **PDF version of this sheet**
+* **Model answers or diagrams** for any of these predictions
