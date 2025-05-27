@@ -1,3 +1,247 @@
+**UNIT: JSP, STRUTS, MVC, AND WEB SERVICES - DETAILED EXAM NOTES**
+
+---
+
+## 1. JAVA SERVER PAGES (JSP)
+
+### 1.1 What is JSP?
+
+* JSP (JavaServer Pages) is a technology used to create dynamic web pages using Java.
+* It allows embedding Java code inside HTML using special tags.
+* Part of Java EE (Jakarta EE).
+
+### 1.2 JSP Life Cycle
+
+JSP follows a specific life cycle:
+
+1. **Translation**: JSP file is translated into a servlet by the server.
+2. **Compilation**: The servlet is compiled into a Java class.
+3. **Instantiation**: Object of the generated servlet is created.
+4. **Initialization**: `jspInit()` method is called once.
+5. **Request Processing**: `jspService()` method is called for each request.
+6. **Destruction**: `jspDestroy()` method is called before JSP is removed from memory.
+
+### 1.3 JSP Syntax Elements
+
+* **Directives**: Provide global information. Example: `<%@ page language="java" %>`
+* **Scriptlets**: Java code. Example: `<% int a = 5; %>`
+* **Expressions**: Output values. Example: `<%= a %>`
+* **Declarations**: Declare variables/methods. Example: `<%! int count; %>`
+* **Comments**: `<%-- JSP Comment --%>`
+
+### 1.4 Sample JSP Code
+
+```jsp
+<%@ page language="java" contentType="text/html" %>
+<% int a = 10, b = 20; %>
+<!-- This is a comment -->
+<p>The sum is: <%= a + b %></p>
+```
+
+### 1.5 JSP vs Servlet
+
+| Feature      | JSP          | Servlet        |
+| ------------ | ------------ | -------------- |
+| Syntax       | HTML + Java  | Pure Java      |
+| Role         | Presentation | Business Logic |
+| Readability  | Easier       | Harder         |
+| Compilation  | Auto         | Manual         |
+| Suitable for | UI           | Processing     |
+
+### 1.6 Advantages of JSP
+
+* Easier to write and maintain.
+* Reduces complexity by separating view from business logic.
+* Automatically compiled by server.
+* Supports reuse through custom tags and JavaBeans.
+
+### 1.7 JSP and MVC
+
+* JSP acts as the **View** in MVC.
+* Servlet/Action acts as **Controller**.
+* JavaBeans or DB logic is the **Model**.
+
+**Flow:**
+
+```
+Browser --> Controller (Servlet) --> Model --> Data --> JSP (View)
+```
+
+---
+
+## 2. STRUTS FRAMEWORK
+
+### 2.1 What is Struts?
+
+* Struts is an open-source web application framework based on MVC design.
+* Helps build extensible, maintainable, and modular web apps.
+
+### 2.2 Architecture of Struts
+
+* **Controller**: Handles incoming requests. In Struts 2, `FilterDispatcher` or `StrutsPrepareAndExecuteFilter`.
+* **Action**: Java class where business logic is written.
+* **Model**: Java classes or database logic.
+* **View**: JSP pages.
+* **Configuration**: `struts.xml` file contains mappings.
+
+**Struts Flow:**
+
+```
+Request --> Controller --> Interceptors --> Action --> Result --> View (JSP)
+```
+
+### 2.3 Interceptors
+
+Interceptors in Struts 2 are like filters in Servlet.
+They allow pre-processing and post-processing of requests.
+
+**Common Interceptors:**
+
+* `params`: Populates action class fields.
+* `validation`: Validates user input.
+* `workflow`: Skips execution if validation fails.
+* `fileUpload`: Handles file upload.
+* `exception`: Catches and handles exceptions.
+* `logger`: Logs request execution time.
+
+**Custom Interceptor Example:**
+
+```java
+public class AuthInterceptor extends AbstractInterceptor {
+    public String intercept(ActionInvocation ai) throws Exception {
+        // authentication logic
+        return ai.invoke(); // proceed
+    }
+}
+```
+
+### 2.4 Exception Handling
+
+* Handled via the `exception` interceptor.
+* We can define global or per-action exception mappings in `struts.xml`.
+
+```xml
+<global-exception-mappings>
+    <exception-mapping exception="java.lang.Exception" result="errorPage"/>
+</global-exception-mappings>
+```
+
+---
+
+## 3. MVC (MODEL-VIEW-CONTROLLER)
+
+### 3.1 What is MVC?
+
+MVC is a design pattern that separates application logic into three components:
+
+* **Model**: Manages data and business rules.
+* **View**: UI, usually JSP in Java.
+* **Controller**: Handles user input and updates model/view.
+
+### 3.2 MVC Flow in Web App
+
+1. User sends a request (e.g., clicks a button).
+2. Controller handles the request and calls the model.
+3. Model processes data and returns results.
+4. Controller forwards to View.
+5. View (JSP) displays data.
+
+**Diagram:**
+
+```
+[Client] → [Controller] → [Model] → [View] → [Client]
+```
+
+---
+
+## 4. WEB SERVICES
+
+### 4.1 What are Web Services?
+
+* A Web Service is a method of communication between two devices over the web.
+* Allows programs written in different languages/platforms to communicate.
+
+### 4.2 SOAP (Simple Object Access Protocol)
+
+* Protocol for sending XML-based messages over HTTP.
+* Platform/language independent.
+
+**SOAP Message Structure:**
+
+```xml
+<soap:Envelope>
+  <soap:Header></soap:Header>
+  <soap:Body>
+    <operation>
+      <parameter1>value</parameter1>
+    </operation>
+  </soap:Body>
+</soap:Envelope>
+```
+
+**Advantages:**
+
+* Standardized.
+* Can use different protocols (HTTP, SMTP).
+* Supports security and transactions.
+
+### 4.3 WSDL (Web Services Description Language)
+
+* XML file that describes what the web service does.
+* Used by client to understand how to call the service.
+
+**Key Elements:**
+
+* `types`: Data types
+* `message`: Input/output messages
+* `portType`: Operations
+* `binding`: Protocol (SOAP/HTTP)
+* `service`: URL location
+
+### 4.4 UDDI (Universal Description, Discovery and Integration)
+
+* A directory for publishing and discovering web services.
+* Like Yellow Pages for services.
+* Allows companies to register their web services.
+
+**Steps:**
+
+1. Publish (by provider)
+2. Find (by consumer)
+3. Bind (connect and use)
+
+### 4.5 REST (Representational State Transfer)
+
+* Architecture style for designing networked applications.
+* Uses HTTP methods (GET, POST, PUT, DELETE).
+* Lightweight compared to SOAP.
+
+**REST Features:**
+
+* Stateless communication
+* JSON/XML format
+* URL-based resource identification
+
+**Example:**
+
+* GET `/students/1` → Get student with ID 1
+* POST `/students` → Create new student
+
+**REST vs SOAP:**
+
+| Feature    | REST      | SOAP     |
+| ---------- | --------- | -------- |
+| Format     | JSON/XML  | XML      |
+| Speed      | Fast      | Slower   |
+| Protocol   | HTTP only | Multiple |
+| Complexity | Simple    | Complex  |
+
+---
+
+End of Notes.
+
+
+
 | **Concept**                        | **Paper 1 (2022)**                              | **Paper 2 (Jan 2023)**                                           | **Paper 3 (June 2023)**          | **Paper 4 (Dec 2023)**                                         | **Paper 5 (May 2024)**                                                        |
 | ---------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | **JSP Lifecycle & Advantages**     | Explain JSP lifecycle; advantages over servlet  | Same concept – lifecycle + advantages of JSP over servlet        | JSP lifecycle with diagram       | JSP vs Servlet (min 4 points); lifecycle explained             | Lifecycle + JSP vs Servlet                                                    |
@@ -18,7 +262,20 @@ to attempt
 | **May 2024**  | JSP Lifecycle; Differentiate JSP vs Servlet (min 4)                  | Web Services concept; WSDL and SOAP                                         |
 | **Dec 2024**  | JSP vs Servlet (min 4); How JSPs are translated to Servlets          | Struts framework; explain with example code block                           |
 
+JSP (JavaServer Pages):
+- Explain the life cycle of JSP with diagram.
+- Write a JSP program using page directive, scriptlet, expression, and comment.
+- Enlist advantages of JSP over servlet.
+- Explain JSP with syntax and example. Compare JSP and servlet.
+- Explain JSP support for MVC paradigm.
 
+Struts & MVC:
+- Explain struts framework architecture with actions and interceptors.
+- List and describe interceptors in struts.
+- Draw and explain MVC architecture.
+
+- Explain WSDL and SOAP.
+- Write notes on UDDI and REST.
 
 🔮 Alternate Predicted Q4 for 2025 (with Web Services)
 Q4)
