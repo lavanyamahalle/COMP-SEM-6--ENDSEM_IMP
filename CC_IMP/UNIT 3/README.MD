@@ -159,6 +159,37 @@ Absolutely! Here’s your **exam-ready summary notes** with **keywords before ea
 * **Power:** Can increase power consumption if not managed.
 
 ---
++----------------------------------------------------+
+|                Applications (in VMs)               |
+|  +-------------+    +-------------+    +---------+ |
+|  | App in VM 1 |    | App in VM 2 |    | ...     | |
+|  +-------------+    +-------------+    +---------+ |
+|----------------------------------------------------|
+|              Guest OS (in each VM)                  |
+|  +-------------+    +-------------+    +---------+ |
+|  | Guest OS 1  |    | Guest OS 2  |    | ...     | |
+|  +-------------+    +-------------+    +---------+ |
+|----------------------------------------------------|
+|                     Hypervisor                      |
+|  (Manages VMs, allocates resources, ensures iso.)  |
+|----------------------------------------------------|
+|                    Physical Hardware                |
+|      (CPU, RAM, Storage, Network Interfaces)        |
++----------------------------------------------------+
+
+
+| **Criteria**              | **Hardware Virtualization**            | **OS Virtualization (Containers)** | **Server Virtualization**      | **Storage Virtualization**              | **Network Virtualization**             | **Application Virtualization**     | **Desktop Virtualization**          |
+| ------------------------- | -------------------------------------- | ---------------------------------- | ------------------------------ | --------------------------------------- | -------------------------------------- | ---------------------------------- | ----------------------------------- |
+| **What is Virtualized?**  | Physical hardware (CPU, RAM, etc.)     | OS kernel and user-space           | Complete server instance       | Physical storage devices                | Network components (switches, routers) | Apps and their runtime environment | User desktops and OS environments   |
+| **Isolation Level**       | Strong (each VM is isolated)           | Moderate (shared kernel)           | Strong (VMs are independent)   | Moderate                                | High (virtual networks separated)      | App-level isolation                | Full desktop isolation              |
+| **Performance**           | Slight overhead                        | Near-native performance            | Slight overhead                | Depends on implementation               | Near-native performance                | Near-native                        | May have some lag (remote desktop)  |
+| **Resource Efficiency**   | Moderate (requires hypervisor)         | High (lightweight containers)      | Moderate                       | High (pooled storage)                   | High                                   | High                               | Moderate                            |
+| **Speed of Deployment**   | Slow (booting full OS)                 | Very fast (milliseconds)           | Slow to moderate               | Moderate                                | Fast                                   | Fast                               | Moderate                            |
+| **Management Complexity** | High                                   | Low                                | Moderate                       | Moderate                                | High                                   | Low                                | Moderate                            |
+| **Security**              | High                                   | Depends on container engine        | High                           | Moderate                                | High                                   | Depends on app security            | High                                |
+| **Examples**              | VMware ESXi, Hyper-V, KVM              | Docker, LXC, Podman                | Citrix Hypervisor, Proxmox     | NetApp ONTAP, IBM SAN Volume Controller | VMware NSX, Cisco ACI                  | Microsoft App-V, Citrix XenApp     | VMware Horizon, Citrix VDI          |
+| **Used By**               | Cloud providers, Enterprises           | Developers, DevOps teams           | Data centers                   | Enterprises with large data storage     | Large networks, data centers           | Enterprise IT, app testing         | Remote workers, IT-managed desktops |
+| **Best For**              | Full OS virtualization, legacy support | Microservices, agile dev           | Consolidating multiple servers | Centralized storage management          | Creating logical networks              | Running apps across OSs easily     | Remote access to personal desktops  |
 
 Let me know if you want me to customize it further or create flashcards!
 
