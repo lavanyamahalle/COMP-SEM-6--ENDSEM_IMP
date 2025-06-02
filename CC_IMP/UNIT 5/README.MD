@@ -134,7 +134,74 @@ Secure Cloud Software Testing focuses on identifying and fixing vulnerabilities 
 
 ### 🧠 **Trick: SAFE-TEST**
 
-If you want secure cloud software, give it a proper **SAFE-TEST** before release.
+Here are **summary notes** for your exam – concise, easy-to-memorize, and based on keywords/mnemonics:
+
+---
+
+## 🔹 **Q5a: CIA Triad in Cloud Computing**
+
+### ✅ **Definition:**
+
+CIA = Core principles of cloud security.
+
+### 🔑 **C – Confidentiality**
+
+→ Prevent unauthorized access using encryption, IAM.
+
+### 🔑 **I – Integrity**
+
+→ Prevent data modification using hashes, checksums.
+
+### 🔑 **A – Availability**
+
+→ Ensure access using backups, redundancy.
+
+### 🧠 **Trick:**
+
+**CIA = Cloud Info Assurance = Secrets, Stability, Service**
+
+---
+
+## 🔹 **Q6b: Content Level Security (CLS)**
+
+### ✅ **Definition:**
+
+CLS protects the actual file/data regardless of location.
+
+### 🔑 **Key Points – Mnemonic: `FILE SAFE`**
+
+* **F** – File encryption
+* **I** – Identity-based access
+* **L** – Label sensitive data
+* **E** – Email/docs secured
+* **S** – Secure collaboration
+* **A** – Access logging
+* **F** – Fine-grained control
+* **E** – External share limit
+
+### 🧠 **Trick:**
+
+**CLS keeps your FILE SAFE.**
+
+---
+
+## 🔹 **Q6c: Server-side vs Client-side Encryption**
+
+| 🔸 Feature                       | 🔐 Server-side Encryption (SSE)            | 🔐 Client-side Encryption (CSE)           |
+| -------------------------------- | ------------------------------------------ | ----------------------------------------- |
+| 🔑 **Who Encrypts?**             | Cloud provider                             | User/client                               |
+| 🧠 **Where Encryption Happens?** | After data reaches cloud                   | Before data leaves client                 |
+| 🗝️ **Key Management**           | Managed by cloud provider                  | Managed by the client                     |
+| 🔒 **Security Control**          | Less control for user                      | Full control for user                     |
+| 💾 **Performance**               | Faster uploads, but more trust on provider | More secure, but slower due to encryption |
+| 📂 **Use Case**                  | Suitable for general use                   | Suitable for highly sensitive data        |
+| ⚙️ **Complexity**                | Easy to implement                          | More complex, needs key storage           |
+| 🔄 **Decryption**                | Done by provider when accessed             | Done by client before use                 |
+
+
+---
+
+Would you like these as a **PDF file** or a **last-minute printable cheat sheet**?
 
 ---
 
